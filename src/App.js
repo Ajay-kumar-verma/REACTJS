@@ -8,8 +8,10 @@
 // import Context  from './Topic/Context.js';
 // import Material from './Topic/MaterialIcon';
 // import LifeCycle from './Topic/LifeCycle.js';
-  import UseEffect2 from './Topic/UseEffect2';
-function App() {
+// import UseEffect2 from './Topic/UseEffect2';
+  // import SimpleGrd from './Chakra/Layout/SimpleGrd'
+import Grd from './Chakra/Layout/Grd'
+  function App() {
   return (
    <>
    {/* <Form  /> */}
@@ -17,11 +19,13 @@ function App() {
    {/* {<Routing />} */}
     {/* <UseState  /> */}
    {/* <UseEffect  /> */}
-   <UseEffect2  />
+   {/* <UseEffect2  /> */}
   {/* <RefForm  /> */}
   {/* < Context  /> */}
    {/* <Material /> */}
    {/* <LifeCycle /> */}
+   {/* <SimpleGrd  /> */}
+   <Grd   />
    <br/>
    
    </>
