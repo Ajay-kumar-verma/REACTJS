@@ -3,11 +3,12 @@ import { Grid, GridItem } from '@chakra-ui/react'
 const Grd = () => {
     return (
 
-    //   in that height and width has to defined 
+    //   in that height and width has to defined  it give us a page 
     //  by rows and colums 
         <>
 <Grid
   h='200px'
+
   templateRows='repeat(2, 1fr)'
   templateColumns='repeat(5, 1fr)'
   gap={4}
@@ -16,6 +17,7 @@ const Grd = () => {
   <GridItem colSpan={2} bg='blue' />
   <GridItem colSpan={2} bg='blue' />
   <GridItem colSpan={4} bg='tomato' />
+
 </Grid>
 
         </>

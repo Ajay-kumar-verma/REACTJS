@@ -10,7 +10,8 @@
 // import LifeCycle from './Topic/LifeCycle.js';
 // import UseEffect2 from './Topic/UseEffect2';
   // import SimpleGrd from './Chakra/Layout/SimpleGrd'
-import Grd from './Chakra/Layout/Grd'
+// import Grd from './Chakra/Layout/Grd'
+ import  Flx from './Chakra/Layout/Flx'
   function App() {
   return (
    <>
@@ -25,7 +26,8 @@ import Grd from './Chakra/Layout/Grd'
    {/* <Material /> */}
    {/* <LifeCycle /> */}
    {/* <SimpleGrd  /> */}
-   <Grd   />
+   {/* <Grd   /> */}
+   <Flx /> 
    <br/>
    
    </>
