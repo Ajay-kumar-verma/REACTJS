@@ -11,8 +11,14 @@
 // import UseEffect2 from './Topic/UseEffect2';
   // import SimpleGrd from './Chakra/Layout/SimpleGrd'
 // import Grd from './Chakra/Layout/Grd'
- import  Flx from './Chakra/Layout/Flx'
-  function App() {
+//  import  Flx from './Chakra/Layout/Flx'
+// import {Btn} from './Chakra/Form/Btn'
+// import Ckbx from './Chakra/Form/Ckbx';
+// import Fmcnt from './Chakra/Form/Fmcnt';
+// import Input from './Chakra/Form/Input.js';
+ import {Rspsv} from './Chakra/Layout/Rspsv.js';
+
+function App() {
   return (
    <>
    {/* <Form  /> */}
@@ -27,7 +33,13 @@
    {/* <LifeCycle /> */}
    {/* <SimpleGrd  /> */}
    {/* <Grd   /> */}
-   <Flx /> 
+   {/* <Flx />  */}
+  {/* <Btn /> */}
+{/* <Ckbx /> */}
+  {/* <Fmcnt  /> */}
+  {/* <Input /> */}
+
+<Rspsv  />
    <br/>
    
    </>
