@@ -1,0 +1,76 @@
+This time you have to implement a score calculation algorithm for Relevel tournament. In this tournament, there will be a total of N problems. You know that Alice has made a total of M submissions during the tournament, it will be given that i-th submission was made for Ai-thproblem and received the verdict Vi(Vi can be AC, TLE, WA, or RE).
+
+ 
+
+The rule for the tournament are as follow Alice will get 100 points for a problem if she received AC verdict for the first time on that problem. If she received AC again for the same problem then nothing will change.
+
+Alice will get a penalty and penalties is the sum of the following count for the problems on which she received an AC once or more: the number of TLE, WA, or RE received before receiving an AC for the first time on that problem.
+
+Your task is to calculate the total points scored by Alice and the number of penalties.
+
+ 
+
+ 
+
+Constraints :
+
+ 
+
+1 <= N <= 10^5
+0 <= M <= 10^5
+1 <= A[i] <= N
+Vi ∈ {AC, TLE, WA, or RE}
+ 
+
+ 
+
+Input Format :
+
+ 
+
+The first line will contain two integers N and M, the number of problems in the tournament, and the number of submissions made by Alice.
+Then each of next M lines will contain two things, first one is problem number Ai for which Alice has made the i-th submission and the second one is the verdict she received for that submission.
+ 
+
+ 
+
+ 
+
+Output Format :
+
+ 
+
+You have to print a single line that contains two integers separated by space, Alice’s total score, and the number of penalties.
+ 
+
+ 
+
+Sample Input :
+
+ 
+
+4 6
+
+2 TLE
+
+2 AC
+
+2 RE
+
+3 AC
+
+1 WA
+
+2 AC
+
+ 
+
+ 
+
+Sample Output :
+
+ 
+
+200 1
+
+ 

@@ -1,0 +1,46 @@
+Higher-Order Functions in JavaScript
+-------------------------------------
+First-Class Function: A programming language is said to have First-class
+functions if functions in that language are treated like other variables.
+So the functions can be assigned to any other variable or passed as an argument
+or can be returned by another function.JavaScript treat function as a first-class-citizens.
+This means that functions are simply a value and are just another type of object.
+
+
+First class function : if function can be trrated as variale itself
+--------------------------------------------------
+
+three type of way of coding
+
+1 procedure ways
+2 object orient way (Oops)
+3 functional programming
+
+javascript support functional programming
+
+
+everything ios javascript in function 
+
+
+
+
+// --------------------------------
+// pure function should have return value and argrument 
+// it doesnt use use global variable 
+
+
+
+// function can be treated object themself 
+// In javascript everything is an Oject 
+//in javascript function is treated as object   
+
+// javascript is all about functiona and object
+
+
+// do not iterate 
+// use map , reduce ,filter ,some ,every ,fill etc...
+
+// we should go immutable object 
+
+
+

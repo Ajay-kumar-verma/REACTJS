@@ -1,0 +1,129 @@
+----------------------------------------------------------------
+Before React js
+====
+1> HTML and CSS
+2> jsx(javascript xml) and babel
+
+It is the easiest way to add HTML code inside javascript or you can say
+it is the extension of the Javascript language syntax.
+
+jsx =javascript +html
+
+babel
+https://babeljs.io/en/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.21&spec=false&loose=false&code_lz=DwBwfAggVghgngAgcA9OIA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.17.9&externalPlugins=&assumptions=%7B%7D
+
+ Babel is a compiler that transforms HTML-like
+ text found in JavaScript files into standard JavaScript objects
+
+we can check in above link
+-------------------------------------------------
+3>
+HTML Fundamentals of Javascript and ES6
+Learn about operators, conditionals, functions,
+loops, javascript keywords, array, objects, and other fundamentals.
+
+Event handling, DOM manipulation, and how ‘this’ keyword works totally different 
+in javascript (which is confusing for most of the developers).
+
+Higher-order function, callback function, arrow function, state (how state and setState() function works) scope, class & constructors, extends and inheritance, map, reduce, filter, promises, modules, closures,
+const, let (difference between var, let and const) and other features of ES5 and ES6
+
+
+
+---------------------------------------------------------------------
+4>
+ Package manager (node +npm)
+ npm =Node package manager
+
+You can install NPM by installing Node.js.
+When you install Node.js, NPM will install automatically. 
+
+npm : manage all the files when we install and uninstall 
+files 
+it manages json and js files
+
+everything when wehn we install or uninstall
+
+--------------------------------------------------------------------------------------------
+5> git hub  and CLI( command line interface)
+
+
++++++++++++++++++++++++++++++++++++
+REACT JS 
++++++++++++++++++++++++++++++++++++
+Note: React is not a framework.
+It is just a library developed by Facebook to solve some problems that we were facing earlier.
+
+It uses virtual dom to updating the 
+content of webpages 
+
+
+++++++++
+jsx
+++++++
+it is javascript xml (javascript + html )
+
+it is fater than normal javascript code 
+it make easier way to code 
+
+we write javascript code in curly brace { }
+
+attribute we can provide in two way 
+1 string literal 
+2 using curly brace
+
+
+ES ECMA SCRIPT 
+
+it has many new key 
+-----------------------
+Babel
+
+its is transcompiler 
+ it convert hrml code int javascript  
+
+It is a tool that is used to convert source code into another source code that is of the same level. 
+
+
+ It is also good to note that a compiler is totally different from a transpiler as the transpiler converts source
+ code into another source code at the same abstraction level, whereas the 
+ compiler converts code into a lower level code generally
+-------------------------
+npm is node package manager 
+it is used for package managing 
+
+============================
+REACT DOM 
+============================
+
+jsx is used to store the html in javascript code  
+
+
+DOM statnd for document object model 
+
+It is tree like structure 
+it store all the content to display in the webpages  
+
+and Each part is easy to update 
+addding and deletion part  is also easy 
+
+--------
+The Virtual DOM can be referred to as a copy of the actual DOM representation
+ that is used to hold the updates made by the user and finally reflect
+it over to the original Browser DOM at once consuming much lesser time. 
+
+
+----------------------
+VIRTUAL DOM 
+-----------------------
+
+-------------------------
+CODE  SPLITTING IN REACT
+-------------------------
+
+
+
+
+
+
+
