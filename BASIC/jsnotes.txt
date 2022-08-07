@@ -1,0 +1,454 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+NOTES 
+data types 
+primitive (5) :number , string ,boolean, undefined ,null;
+non primitive (3) : function , object. class 
+
+in javascript everything is an object except primitive data type 
+
+
+Hoisting concept :
+-------------------
+Hoisting is JavaScript's default behavior of moving
+declarations to the top.
+
+This means that irrespective of where the variables and functions are declared,
+they are moved on top of the scope. The scope can be both local and global.
+
+it is valid for function and variable as well 
+**Note - To avoid hoisting, you can run javascript in strict mode by using “use strict” on top of the code:
+
+it show updated values only 
+
+
+Type Coercion in javascript.
+-------------------------------
+Type Coercion refers to the process of automatic or implicit
+conversion of values from one data type to another
+
+
+string to number or vice verse 
+
+if possible to perform string operation it perfomed or 
+or it performed mathemtical operation 
+if not possible  to performed maths operation it throws
+NAN   
+
+
+number and boolean or vice verce
+it try to convert into number  
+if not get converted into boolean 
+
+
+-
+Is javascript a statically typed or a dynamically typed language?
+--------------
+JavaScript is a dynamically typed language. In a dynamically typed language, the type of a variable is checked
+during run-time in contrast to statically typed language, where the type of a variable is checked during compile-time.
+
+
+NaN property in JavaScript?
+------------------------------
+
+NaN property represents “Not-a-Number” value. It indicates a value which is not a legal number.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Higher-Order Functions in JavaScript
+-------------------------------------
+First-Class Function: A programming language is said to have First-class
+functions if functions in that language are treated like other variables.
+So the functions can be assigned to any other variable or passed as an argument
+or can be returned by another function.JavaScript treat function as a first-class-citizens.
+This means that functions are simply a value and are just another type of object.
+
+
+First class function : if function can be trrated as variale itself
+--------------------------------------------------
+
+three type of way of coding
+
+1 procedure ways
+2 object orient way (Oops)
+3 functional programming
+
+javascript support functional programming
+
+everything in javascript in function 
+
+
+// --------------------------------
+// pure function should have return value and argrument 
+// it doesnt use use global variable 
+
+
+
+// function can be treated object themself 
+// In javascript everything is an Oject 
+//in javascript function is treated as object   
+
+// javascript is all about functiona and object
+
+
+// do not iterate 
+// use map , reduce ,filter ,some ,every ,fill etc...
+
+// we should go immutable object 
+
+
+--------------------------------------
+
+BASIC
+
+----------------------------------------
+Array and object  [[LIST]] >)
+
+Arrays and its all method
+
+concat()
+entries()// return key of array
+every()  // check for all ele in array 
+fill()   // fill the array with static data
+filter() // return new filter array 
+find () // return index of found ele in an array
+from() // create an array from an object
+
+Object.keys(obj) // it return array of keys of objects
+
+map() return new array with datas 
+reduce() reduce array value to single value
+filter() // return a filter array
+
+---------------------
+ LOOPING
+
+1 do while loop 
+2 while loop 
+
+3 for loop
+
+4 for Array for of loop 
+
+5 for Object 
+ for in loop 
+
+--------------------------
+Higher order function
+function can be treated as variable
+
+-------------------
+Promises 
+A promises is javascript  object 
+that consume code and producing code
+for producing and consuming it takes some time 
+
+
+-------------------------------
+call back
+As javascript support higher order function  
+we can pass function as argrument 
+that function is called call back function  
+
+
+Functions that are used as an argument to another function are called callback functions.
+
+--------------------------
+API CALL
+we can get the data from server 
+using api calll
+
+AXIOS 
+or fetch api  
+
+
+------------------------
+call bind and apply
+
+every function has method call bind and apply 
+we can pass object to this function 
+this object can be acces using this keyword
+and data can be manipulated 
+
+
+-------------------------
+pass by reference and pass by value
+
+for primitive data type 
+when we pass variable we pass by value not reference 
+where as when we pass object we pass pass theire addre or reference    
+----------------------------------------------------------------------
+
+Immediately Invoked Function in JavaScript?
+
+An Immediately Invoked Function ( known as IIFE and pronounced as IIFY) is a function that runs as soon as it is defined.
+(()=>{ 
+  // Do something;
+})();
+----------------------------------------------------
+This keyword
+
+The value of “this” keyword will always depend on the object that is invoking the function.
+
+------------------------------------
+currying in JavaScript?
+Currying is an advanced technique to transform a function of arguments n, to n functions of one or less arguments.
+---------------------------------------------------
+SCOPE 
+Scope in JS, determines the accessibility of variables and functions at various parts in one’s code.
+
+
+Global Scope
+Local or Function Scope
+Block Scope
+
+Scope Chain
+------------------------------------------
+Closure 
+Closures is an ability of a function to remember the variables and functions that are declared in its outer scope.
+
+
+var Person = function(pName){
+  var name = pName;
+
+  this.getName = function(){
+    return name;
+  }
+}
+
+var person = new Person("Neelesh");
+console.log(person.getName());
+
+--------------------------------------------------------------------------------------
+OBJECT PROTOTYPING
+
+All javascript objects inherit properties from a prototype.
+A prototype is a blueprint of an object. Prototype allows us to use properties and methods
+on an object even if the properties and methods do not exist on the current object.
+
+
+-------------------------------------------------------------------
+memoization?
+-----------
+Memoization is a form of caching where the return value of a function is cached based on its parameters.
+If the parameter of that function is not changed, the cached version of the function is returned
+
+NOT DONE 
+
+----------------------
+RECURSION 
+
+function calling itself 
+
+-----------------------------------------------------
+constructor function in javascript?
+
+Constructor functions are used to create objects in javascript.
+
+we can create object using new keyword
+
+----------------------------------------
+DOM
+it standard for document object model
+using dom we can manipulate the web content
+
+it is tree like  structure
+root node is html 
+
+++++++++++++++++++++++++++++++++++++++
+ADVANCE JAVASCRIPT
+
+Arrow functions
+--------------------
+Arrow functions were introduced in the ES6 version of javascript.
+Arrow functions can only be used as a function expression.
+if there is one statemet no need of return statemet
+
+
+
+let   var     const 
+---------------------------------------
+const cnt be reassigned 
+let and var be reassigned
+
+++
+
+var has function and global level scope 
+means local and global scope 
+it doesnt hav block level scope ( 
+  it consider as gloabl
+) 
+
+Variables declared with var keyword do not have block scope. It means a variable declared
+in block scope {} with the var keyword is the same as declaring the variable in the global scope.
+
+variable declared inside function cant accessible form outside
+
+----------------------------------------------------------
+|keyword  |	const | 	let | 	var
+|-----------------------------------
+|global   | no	  | no	| yes     |
+|function |	yes	  | yes |	yes     |
+|block    | yes	  | yes	| no      |
+|can be   |no     |	yes |	yes     |
+reassigned	
+___________________________________
+
+rest parameter and spread operator
+-----------------------------------
+Both rest parameter and spread operator were introduced in the ES6 version of javascript.
+It provides an improved way of handling parameters of a function.
+
+Using the rest parameter syntax, we can create functions that can take a variable number of arguments.
+Any number of arguments will be converted into an array using the rest parameter.
+
+Rest parameter is used to take a variable number of arguments and turns into an array
+while the spread operator takes an array or an object and spreads it
+
+
+ promises in javascript
+--------------------------
+Promises are used to handle asynchronous operations in javascript.
+
+resolve is a function that will be called, when the async operation has been successfully completed.
+reject is a function that will be called, when the async operation fails or if some error occurs.
+
+CLASSES
+----------
+Introduced in the ES6 version, classes are nothing but syntactic sugars for constructor functions.
+They provide a new way of declaring constructor functions in javascript.
+
+
+Unlike functions, classes are not hoisted. A class cannot be used before it is declared.
+A class can inherit properties and methods from other classes by using the extend keyword.
+All the syntaxes inside the class must follow the strict mode(‘use strict’) of javascript.
+Error will be thrown if the strict mode rules are not followed
+
+
+GENERATOR FUNCTION
+----------------------
+Introduced in ES6 version, generator functions are a special class of functions.
+They can be stopped midway and then continue from where it had stopped.
+
+
+weakSet and WeakMap 
+----------------------------
+In javascript, Set is a collection of unique and ordered elements.
+In javascript, Map is used to store key-value pairs. The key-value pairs can be of both primitive and non-primitive types.
+
+
+
+
+OBJECT destructuring
+----------------------------
+Object destructuring is a new way to extract elements from an object or an array
+
+
+const classDetails = {
+  strength: 78,
+  benches: 39,
+  blackBoard:1
+}
+
+const {strength:classStrength, benches:classBenches,blackBoard:classBlackBoard} = classDetails;
+
+const arr = [1, 2, 3, 4];
+const [first,second,third,fourth] = arr;
+
+console.log(first); // Outputs 1
+console.log(second); // Outputs 2
+console.log(third); // Outputs 3
+console.log(fourth); // Outputs 4
+
+
+
+dead zone 
+------------------------
+Temporal Dead Zone is a behaviour that occurs with variables declared using let and const keywords.
+It is a behaviour where we try to access a variable before it is initialized.
+
+
+Template literals
+-----------------------
+Template Literals is an ES6 feature (JavaScript 2015).
+Template literals allow expressions in strings:
+let total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
+
+
+REGULAR EXPRESSION
+----------------------------
+A regular expression is a sequence of characters that forms a search pattern.
+The search pattern can be used for text search and text replace operations.
+
+
+
+
+
+
+EVENT LOOPING 
+-----------------------
+
+
+
+
+DEBOUNCING
+---------------------------
+
+
+
++_+_+_+_+_+_+_++_++++
+JS WEB API
+
+FETCH API 
+-------------------
+The Fetch API interface allows web browser to make HTTP requests to web servers.
+ No need for XMLHttpRequest anymore.
+
+ async function getText(file) {
+  let x = await fetch(file);
+  let y = await x.text();
+  myDisplay(y);
+}
+
+
+WEB WORKER 
+-------------------
+
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++
+
+====================================================================
+PROBLEN
+
+
+
+
+
+
+
+
+=====================================================================
+
+
+--------
+Closure
+IIFE
+call bind apply apply
+promise
+api call
+memoization
+prototype
+constructor function
+DOM
+let var const 
+classes
+
+
+
+
+
+

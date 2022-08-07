@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+//  if we are declaring anything as var 
+// anywhere  it consider a a gloabal
+
+x=56;
+
+console.log(x)
+var x;
+
+
+fun();
+ function fun(){
+    console.log("Fun function is called ...!");
+}
+
+// all declarative part initilized first 
+
+
+setTimeout(() => {
+console.log(x);
+// it print updated value
+},399);
+
+x=89;
+
+for(var i=0;i<5;i++){
+setTimeout(() => {
+    console.log(i);
+},5000)
+}
+
+console.log(i)
+
+</script>
+
+</body>
+</html>

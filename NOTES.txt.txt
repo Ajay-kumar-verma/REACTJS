@@ -25,10 +25,12 @@ loops, javascript keywords, array, objects, and other fundamentals.
 Event handling, DOM manipulation, and how ‘this’ keyword works totally different 
 in javascript (which is confusing for most of the developers).
 
-Higher-order function, callback function, arrow function, state (how state and setState() function works) scope, class & constructors, extends and inheritance, map, reduce, filter, promises, modules, closures,
+Higher-order function, callback function, arrow function, state (how state and setState() function works) scope, 
+class & constructors, extends and inheritance, map, reduce, filter, promises, modules, closures,
 const, let (difference between var, let and const) and other features of ES5 and ES6
 
-
+promises,call,apply,bind
+API calling
 
 ---------------------------------------------------------------------
 4>
@@ -80,7 +82,7 @@ it has many new key
 Babel
 
 its is transcompiler 
- it convert hrml code int javascript  
+it convert html code int javascript  
 
 It is a tool that is used to convert source code into another source code that is of the same level. 
 
@@ -93,7 +95,7 @@ npm is node package manager
 it is used for package managing 
 
 ============================
-REACT DOM 
+REACT DOM  
 ============================
 
 jsx is used to store the html in javascript code  
@@ -106,12 +108,10 @@ it store all the content to display in the webpages
 
 and Each part is easy to update 
 addding and deletion part  is also easy 
-
---------
+------------------------------------------------
 The Virtual DOM can be referred to as a copy of the actual DOM representation
- that is used to hold the updates made by the user and finally reflect
+that is used to hold the updates made by the user and finally reflect
 it over to the original Browser DOM at once consuming much lesser time. 
-
 
 ----------------------
 VIRTUAL DOM 

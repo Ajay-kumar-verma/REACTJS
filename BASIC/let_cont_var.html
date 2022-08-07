@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script >
+
+
+for(var i=0;i<5;i++){
+setTimeout(() => {
+    console.log(i);
+},100)
+}
+console.log(i)
+// it is accessible  by window.i
+
+// var i=0;
+// anything is declare as var gloabally accessible 
+// it will not throw an error accessible gloabally
+// and it update the value i to 5 and 5 will be output
+
+
+for(let j=10;j<15;j++){
+setTimeout(() => {
+    console.log(j);
+},1000)
+}
+
+// console.log(j)
+//  it will throw an error j has block level scope 
+
+var n="ajaya";
+// it is accessible gloabally
+
+const name="ajay kumar verma";
+// it has a scope  and not changable
+
+</script>
+
+
+</body>
+</html>
