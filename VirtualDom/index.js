@@ -7,7 +7,7 @@ d1.innerHTML=`
 <input type='text'  /><br/>
 ${new Date().toLocaleTimeString()} 
 `
-},1000)
+},500)
 
 
 
@@ -25,10 +25,9 @@ React.createElement('h2',null,"Ajay kumar verma"),
 React.createElement('h2',null,"Rahul Singha"),
 React.createElement('input',{type:'text'},null),
 React.createElement('p',null, new Date().toLocaleTimeString(),
-React.createElement('h2',null,"Ravi Singha")
+React.createElement('p',null,"Ravi Singha")
 ),
 )
     root.render(div)
-
-},1000)
+},400)
 // we can render only one component in React
