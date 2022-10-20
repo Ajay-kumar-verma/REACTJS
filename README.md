@@ -8,8 +8,8 @@ https://www.reactshark.com/blog/customhooks-vs-normalfunctions
 - memo for component stop re rendering 
 
 
-**Hooks**                                               **Function** 
-- It is function and react                          - It  is pure function 
+**Hooks                                                  Function** 
+- It is function and react                           It  is pure function 
 
 
 
